@@ -1,1 +1,6 @@
-
+.footer {
+  padding: 50px;
+  background-color: black;
+  width: calc(100% - 260px);
+  margin-left: 260px;
+}
