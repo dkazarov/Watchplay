@@ -21,6 +21,7 @@
     fill: var(--color-accent-cinema-theme);
     width: var(--space-10);
     height: var(--space-10);
+    stroke: var(--color-accent-cinema-theme);
   }
 }
 .logo__title {
