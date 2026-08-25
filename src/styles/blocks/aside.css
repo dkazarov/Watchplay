@@ -9,7 +9,6 @@
   background-color: var(--color-bg);
   width: 260px;
   height: 100vh;
-  margin-right: 259px;
   border-right: 1px solid var(--color-border);
 }
 .logo {
