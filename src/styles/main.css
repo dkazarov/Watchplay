@@ -4,6 +4,7 @@
 @import './global.css';
 @import './helpers.css';
 
+@import './blocks/aside.css';
 /* @import './blocks/header.css'; */
 /* @import './blocks/main.css'; */
 /* @import './blocks/footer.css'; */
