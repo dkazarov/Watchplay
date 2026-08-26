@@ -2,7 +2,7 @@
   "plugins": ["prettier-plugin-organize-attributes"],
   "attributeGroups": ["class", "id", "$DEFAULT"],
   "singleQuote": true,
-  "printWidth": 80,
+  "printWidth": 85,
   "tabWidth": 2,
   "trailingComma": "all",
   "semi": true,
