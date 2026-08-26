@@ -17,9 +17,15 @@
   background-color: var(--color-accent-cinema-theme);
   border-radius: var(--radius-md);
   gap: var(--space-3);
+  transition: var(transition-normal);
 
   svg {
     stroke: var(--color-text);
+  }
+
+  &:hover {
+    transition: var(transition-normal);
+    background-color: var(--color-accent-cinema-theme-hover);
   }
 }
 .toolbar__add-item-title {
