@@ -1,6 +1,6 @@
 .header {
   padding: 50px;
-  background-color: black;
+  background-color: var(--color-bg);
   width: calc(100% - 260px);
   margin-left: 260px;
 }
