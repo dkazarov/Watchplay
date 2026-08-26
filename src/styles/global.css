@@ -5,6 +5,8 @@ body {
   font-style: normal;
   min-height: 100vh;
 
+  background-color: var(--color-bg);
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
