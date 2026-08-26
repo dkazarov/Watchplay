@@ -10,5 +10,6 @@
 @import './blocks/footer.css';
 
 @import './components/header__hello-panel.css';
+@import './components/search.css';
 /* @import './components/search.css'; */
 /* @import './components/burger.css'; */

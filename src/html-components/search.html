@@ -4,9 +4,12 @@
     name="search-query"
     type="search"
     placeholder="Пошук фільма..."
+    maxlength="100"
   />
 
-  <load src="src/html-components/icons/search-icon.html" />
+  <span class="search__icon">
+    <load src="src/html-components/icons/search-icon.html" />
+  </span>
 
-  <button class="search__claen btn--reset">&times;</button>
+  <button class="search__clear btn--reset" type="reset">&times;</button>
 </form>

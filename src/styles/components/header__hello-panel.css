@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   color: var(--color-text);
+  margin-bottom: var(--space-4);
   svg {
     width: var(--space-8);
     height: var(--space-8);
