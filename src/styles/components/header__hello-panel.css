@@ -1,0 +1,14 @@
+.header__hello-panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-text);
+  svg {
+    width: var(--space-8);
+    height: var(--space-8);
+    stroke: var(--color-text);
+  }
+}
+.header__hello-panel-title {
+  font-size: var(--font-size-2xl);
+}
