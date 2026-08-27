@@ -1,0 +1,33 @@
+.random__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-accent-cinema-theme);
+  padding: var(--space-3);
+  margin-left: 260px;
+  color: var(--color-text);
+  border-radius: var(--radius-md);
+
+  svg {
+    margin-right: var(--space-2);
+  }
+}
+.btn--reset {
+}
+.random__title {
+  text-shadow: var(--shadow-lg);
+  font-weight: var(----font-weight-semibold);
+font-size: var(--font-size-lg);
+}
+@media (max-width: 768px) {
+  .random__button {
+    margin-left: 0;
+  }
+}
+/* Hover stickiness */
+@media (hover: hover) and (pointer: fine) {
+  .random__button:hover {
+    transition: var(--transition-normal);
+    background-color: var(--color-accent-cinema-theme-hover);
+  }
+}
