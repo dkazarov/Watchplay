@@ -1,6 +1,19 @@
 .header {
-  padding: 32px 16px;
+  padding: var(--space-8) var(--space-4);
   background-color: var(--color-bg);
   width: calc(100% - 260px);
   margin-left: 260px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    margin-left: 0;
+    width: 100%;
+    padding: var(--space-4);
+  }
+}
+@media (max-width: 576px) {
+  .header {
+    padding: var(--space-3);
+  }
 }

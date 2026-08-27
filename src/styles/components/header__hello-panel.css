@@ -5,6 +5,8 @@
   color: var(--color-text);
   margin-bottom: var(--space-4);
   svg {
+    display: flex;
+    align-items: center;
     width: var(--space-8);
     height: var(--space-8);
     stroke: var(--color-text);
@@ -12,4 +14,16 @@
 }
 .header__hello-panel-title {
   font-size: var(--font-size-2xl);
+}
+
+@media (max-width: 480px) {
+  .header__hello-panel {
+    svg {
+      width: var(--space-7);
+      height: var(--space-7);
+    }
+  }
+  .header__hello-panel-title {
+    font-size: var(--font-size-xl);
+  }
 }

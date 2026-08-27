@@ -78,3 +78,9 @@
     transition: var(--transition-normal);
   }
 }
+
+@media (max-width: 768px) {
+  .aside {
+    display: none;
+  }
+}
