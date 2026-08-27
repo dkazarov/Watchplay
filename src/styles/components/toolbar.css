@@ -107,6 +107,9 @@
   }
 }
 @media (max-width: 480px) {
+  .toolbar__button {
+    width: 100%;
+  }
   .toolbar__button-title {
     span:nth-child(1) {
       color: var(--color-text);
