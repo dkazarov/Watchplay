@@ -1,21 +1,25 @@
+.random {
+  margin-left: 260px;
+  margin-bottom: var(--space-4);
+}
+
 .random__button {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
   background: linear-gradient(
     180deg,
     color-mix(in srgb, var(--color-accent-cinema-theme) 100%, white 8%),
     var(--color-accent-cinema-theme)
   );
-  padding: var(--space-3);
-  margin-left: 260px;
   color: var(--color-text);
+  padding: var(--space-3);
   border-radius: var(--radius-md);
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.15),
     0 1px 2px rgba(0, 0, 0, 0.3);
   transition: var(--transition-normal);
-  margin-bottom: var(--space-4);
 
   svg {
     margin-right: var(--space-2);
