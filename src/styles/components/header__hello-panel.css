@@ -16,8 +16,21 @@
   font-size: var(--font-size-2xl);
 }
 
+@media (max-width: 1024px) {
+  .header__helo-panel-profile-icon {
+    svg {
+      width: var(--space-7);
+      height: var(--space-7);
+    }
+  }
+  .header__hello-panel-title {
+    font-size: var(--font-size-xl);
+  }
+}
+
 @media (max-width: 480px) {
   .header__hello-panel {
+    margin-bottom: var(--space-2);
     svg {
       width: var(--space-7);
       height: var(--space-7);

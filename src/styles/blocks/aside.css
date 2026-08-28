@@ -84,6 +84,25 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .aside {
+    max-width: 200px;
+  }
+  .logo {
+    margin-top: var(--space-2);
+    svg {
+      width: var(--space-6);
+      height: var(--space-6);
+    }
+  }
+  .logo__title {
+    font-size: var(--font-size-lg);
+  }
+  .nav__item--profile {
+    margin-bottom: var(--space-2);
+  }
+}
+
 @media (max-width: 768px) {
   .aside {
     display: none;

@@ -18,6 +18,12 @@ body {
   padding-top: 100px;
 }
 
+@media (max-width: 1024px) {
+  body {
+    padding: var(--space-4);
+  }
+}
+
 @media (max-width: 576px) {
   body {
     padding: var(--space-4);

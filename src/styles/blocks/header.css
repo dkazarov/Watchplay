@@ -5,6 +5,13 @@
   margin-bottom: var(--space-6);
 }
 
+@media (max-width: 1024px) {
+  .header {
+    margin-left: 200px;
+    width: calc(100% - 200px);
+  }
+}
+
 @media (max-width: 768px) {
   .header {
     margin-left: 0;

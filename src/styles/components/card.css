@@ -1,0 +1,73 @@
+.card {
+  background-color: var(--color-bg-grey-600);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+.card__inner {
+  position: relative;
+  color: var(--color-text);
+  font-size: var(--font-size-md);
+}
+.card__img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: var(--space-2);
+}
+.card__content {
+  padding: var(--space-2);
+}
+.card__title {
+  margin-bottom: var(--space-2);
+}
+.card__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-2);
+  color: var(--color-text-muted);
+  font-size: var(--font-size-xs);
+}
+.card__footer-inner {
+  display: flex;
+  align-items: center;
+}
+.card__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-accent-cinema-theme);
+
+  svg {
+    width: var(--space-4);
+    height: var(--space-4);
+  }
+
+  svg:nth-child(1) {
+    fill: var(--color-accent-cinema-theme);
+    margin-right: var(--space-1);
+  }
+  svg:nth-child(2) {
+    stroke: var(--color-text-muted);
+    width: var(--space-6);
+    height: var(--space-6);
+  }
+}
+.card__footer-text {
+}
+
+.bookmarks-card-icon,
+.menu-icon {
+  position: absolute;
+  top: var(--space-2);
+  width: var(--space-8);
+  height: var(--space-8);
+}
+.bookmarks-card-icon {
+  left: var(--space-2);
+}
+.menu-icon {
+  right: var(--space-2);
+  transform: rotate(-90deg);
+  fill: rgba(0, 0, 0, 0.2);
+  stroke: 1px;
+}

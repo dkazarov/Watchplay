@@ -35,8 +35,16 @@
   font-weight: var(--font-weight-medium);
   font-size: var(--font-size-lg);
 }
+
+@media (max-width: 1024px) {
+  .random {
+    margin-left: 200px;
+    width: calc(100% - 200px);
+  }
+}
 @media (max-width: 768px) {
-  .random__button {
+  .random {
+    width: 100%;
     margin-left: 0;
   }
 }
