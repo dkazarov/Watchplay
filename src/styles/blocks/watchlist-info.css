@@ -1,12 +1,46 @@
 .watchlist-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-text);
+  font-size: var(--font-size-xs);
+  margin-bottom: var(--space-4);
 }
-.watchlist-info__left-inner {
+.watchlist-info__left {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
 }
-.watchlist-info__left-title {
+.watchlist-info__title {
+  font-size: var(--font-size-xs);
 }
-.watchlist-info__left-counter {
+.watchlist-info__counter {
 }
-.watchlist-info__right-inner {
+.watchlist-info__view-all {
+  display: flex;
+  align-items: center;
+  color: var(--color-text);
+  transition: var(--transition-normal);
+
+  svg {
+    transform: rotate(-90deg);
+    stroke: var(--color-text);
+    transition: var(--transition-normal);
+  }
+
+  &:active {
+    transition: var(--transition-normal);
+    transform: translateY(2px);
+  }
 }
-.watchlist-info__right-title {
+.watchlist-info__view-all-text {
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .watchlist-info__view-all:hover {
+    color: var(--color-accent-cinema-theme-text-400);
+    svg {
+      stroke: var(--color-accent-cinema-theme-text-400);
+    }
+  }
 }
