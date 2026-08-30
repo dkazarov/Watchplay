@@ -21,8 +21,7 @@
   border: none;
   color: var(--color-text);
   caret-color: var(--color-accent-cinema-theme);
-  font-size: var(--font-size-sm);
-  /* padding-right: var(--space-8); */
+  font-size: var(--font-size-md);
 
   &:focus-visible {
     outline: 1px solid var(--color-accent-cinema-theme);
