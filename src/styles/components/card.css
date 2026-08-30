@@ -65,13 +65,25 @@
 }
 .menu-icon {
   right: var(--space-2);
-  transform: rotate(-90deg);
   fill: rgba(0, 0, 0, 0.2);
   stroke-width: 1px;
 }
 /* Hover stickiness */
 @media (hover: hover) and (pointer: fine) {
-  .menu-icon:hover .menu-icon__bg {
-    fill: rgba(0, 0, 0, 0.75);
+  .bookmarks-card-icon:hover {
+    transition: var(--transition-normal);
+
+    circle {
+      fill: rgba(0, 0, 0, 0.75);
+      transition: var(--transition-normal);
+    }
+  }
+  .menu-icon:hover {
+    transition: var(--transition-normal);
+
+    circle:first-child {
+      fill: rgba(0, 0, 0, 0.75);
+      transition: var(--transition-normal);
+    }
   }
 }
