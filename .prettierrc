@@ -1,0 +1,10 @@
+{
+  "plugins": ["prettier-plugin-organize-attributes"],
+  "attributeGroups": ["class", "id", "$DEFAULT"],
+  "singleQuote": true,
+  "printWidth": 85,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "semi": true,
+  "bracketSameLine": false
+}
