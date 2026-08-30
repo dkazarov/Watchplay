@@ -67,7 +67,7 @@
   right: var(--space-2);
   transform: rotate(-90deg);
   fill: rgba(0, 0, 0, 0.2);
-  stroke: 1px;
+  stroke-width: 1px;
 }
 /* Hover stickiness */
 @media (hover: hover) and (pointer: fine) {
