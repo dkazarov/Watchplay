@@ -71,21 +71,7 @@
 }
 /* Hover stickiness */
 @media (hover: hover) and (pointer: fine) {
-  .bookmarks-card-icon:hover {
-    transition: var(--transition-normal);
-
-    circle {
-      fill: rgba(0, 0, 0, 0.75);
-      transition: var(--transition-normal);
-    }
-  }
-  .menu-icon:hover {
-    transition: var(--transition-normal);
-
-    circle:first-child {
-      fill: rgba(0, 0, 0, 0.75);
-      transition: var(--transition-normal);
-    }
+  .menu-icon:hover .menu-icon__bg {
+    fill: rgba(0, 0, 0, 0.75);
   }
 }
-
