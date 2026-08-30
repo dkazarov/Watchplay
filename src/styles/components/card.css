@@ -35,7 +35,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: var(--color-accent-cinema-theme);
+  color: var(--color-accent-cinema-theme-text-400);
 
   svg {
     width: var(--space-4);
@@ -43,7 +43,7 @@
   }
 
   svg:nth-child(1) {
-    fill: var(--color-accent-cinema-theme);
+    fill: var(--color-accent-cinema-theme-text-400);
     margin-right: var(--space-1);
   }
   svg:nth-child(2) {
@@ -51,8 +51,6 @@
     width: var(--space-6);
     height: var(--space-6);
   }
-}
-.card__footer-text {
 }
 
 .bookmarks-card-icon,
@@ -85,8 +83,9 @@
     transition: var(--transition-normal);
 
     circle:first-child {
-        fill: rgba(0, 0, 0, 0.75);
-        transition: var(--transition-normal);
+      fill: rgba(0, 0, 0, 0.75);
+      transition: var(--transition-normal);
     }
   }
 }
+

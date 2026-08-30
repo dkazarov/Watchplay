@@ -1,4 +1,4 @@
-.watchlist-info {
+.watched-info {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,15 +7,15 @@
   margin-bottom: var(--space-4);
   font-size: var(--font-size-md);
 }
-.watchlist-info__left {
+.watched-info__left {
   display: flex;
   align-items: center;
   gap: var(--space-2);
 }
-.watchlist-info__title {
+.watched-info__title {
   font-size: var(--font-size-md);
 }
-.watchlist-info__view-all {
+.watched-info__view-all {
   display: flex;
   align-items: center;
   color: var(--color-accent-cinema-theme-text-400);
@@ -33,20 +33,20 @@
   }
 }
 
-@media (max-width: 768px) {
-  .watchlist-info__title {
-    font-size: var(--font-size-xs);
-  }
-  .watchlist-info__view-all-text {
-    font-size: var(--font-size-xs);
-  }
-}
-
 @media (hover: hover) and (pointer: fine) {
-  .watchlist-info__view-all:hover {
+  .watched-info__view-all:hover {
     color: var(--color-accent-cinema-theme-text-400);
     svg {
       stroke: var(--color-accent-cinema-theme-text-400);
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .watched-info__title {
+    font-size: var(--font-size-xs);
+  }
+  .watched-info__view-all-text {
+    font-size: var(--font-size-xs);
   }
 }

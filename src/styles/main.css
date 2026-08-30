@@ -8,11 +8,12 @@
 @import './blocks/header.css';
 @import './blocks/random-button.css';
 @import './blocks/watchlist-info.css';
+@import './blocks/watched-info.css';
 @import './blocks/main.css';
 @import './blocks/main-content.css';
-@import './blocks/footer.css';
+/* @import './blocks/footer.css'; */
 
-@import './components/header__hello-panel.css';
+@import './components/header-hello-panel.css';
 @import './components/search.css';
 @import './components/toolbar.css';
 @import './components/card.css';
