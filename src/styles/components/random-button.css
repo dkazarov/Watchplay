@@ -1,8 +1,3 @@
-.random {
-  margin-left: 260px;
-  margin-bottom: var(--space-4);
-}
-
 .random__button {
   display: flex;
   align-items: center;
