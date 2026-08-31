@@ -72,8 +72,6 @@
   .toolbar__controls {
     width: 100%;
   }
-  .toolbar__buttons {
-  }
   .toolbar__button-title {
     span:nth-child(1) {
       color: var(--color-text-muted);
