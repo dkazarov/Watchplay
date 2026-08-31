@@ -3,9 +3,7 @@
   justify-content: space-between;
   align-items: center;
   color: var(--color-text);
-  font-size: var(--font-size-xs);
   margin-bottom: var(--space-4);
-  font-size: var(--font-size-md);
 }
 .watchlist-info__left {
   display: flex;
@@ -20,6 +18,7 @@
   align-items: center;
   color: var(--color-accent-cinema-theme-text-400);
   transition: var(--transition-normal);
+  font-size: var(--font-size-xs);
 
   svg {
     transform: rotate(-90deg);
@@ -34,10 +33,12 @@
 }
 
 @media (max-width: 768px) {
-  .watchlist-info__title {
+  .watchlist-info__view-all-text {
     font-size: var(--font-size-xs);
   }
-  .watchlist-info__view-all-text {
+}
+@media (max-width: 480px) {
+  .watchlist-info__title {
     font-size: var(--font-size-xs);
   }
 }

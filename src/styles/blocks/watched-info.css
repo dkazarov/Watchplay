@@ -3,9 +3,8 @@
   justify-content: space-between;
   align-items: center;
   color: var(--color-text);
-  font-size: var(--font-size-xs);
-  margin-bottom: var(--space-4);
   font-size: var(--font-size-md);
+  margin-bottom: var(--space-4);
 }
 .watched-info__left {
   display: flex;
@@ -20,6 +19,7 @@
   align-items: center;
   color: var(--color-accent-cinema-theme-text-400);
   transition: var(--transition-normal);
+  font-size: var(--font-size-xs);
 
   svg {
     transform: rotate(-90deg);
@@ -43,9 +43,6 @@
 }
 
 @media (max-width: 768px) {
-  .watched-info__title {
-    font-size: var(--font-size-xs);
-  }
   .watched-info__view-all-text {
     font-size: var(--font-size-xs);
   }

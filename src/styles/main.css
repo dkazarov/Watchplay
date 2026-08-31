@@ -19,5 +19,7 @@
 @import './components/header-hello-panel.css';
 @import './components/search.css';
 @import './components/toolbar.css';
+@import './components/add-item-button.css';
 @import './components/random-button.css';
+@import './components/random-button-toolbar.css';
 @import './components/card.css';

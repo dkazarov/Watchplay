@@ -1,14 +1,15 @@
-.random__button {
+.random__button--toolbar {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  padding: 0 var(--space-4);
   background-color: var(--color-accent-cinema-theme);
   color: var(--color-text);
   height: 100%;
   border-radius: var(--radius-md);
   transition: var(--transition-normal);
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  margin: 0 var(--space-4);
 
   svg {
     margin-right: var(--space-2);
@@ -19,7 +20,7 @@
     transform: translateY(1px);
   }
 }
-.random__button-title {
+.random__button--toolbar-title {
   text-shadow: var(--shadow-lg);
   font-weight: var(--font-weight-medium);
   font-size: var(--font-size-lg);
@@ -28,5 +29,21 @@
 @media (hover: hover) and (pointer: fine) {
   .random__button-tolbar:hover {
     background-color: var(--color-accent-cinema-theme-hover);
+  }
+}
+
+@media (min-width: 1600px) {
+  .random__button--toolbar {
+    width: 50%;
+  }
+}
+@media (max-width: 1600px) {
+  .random__button--toolbar {
+    width: 30%;
+  }
+}
+@media (max-width: 1400px) {
+  .random__button--toolbar {
+    display: none;
   }
 }
