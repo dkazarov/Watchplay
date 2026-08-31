@@ -2,6 +2,7 @@
   background-color: var(--color-bg-grey-600);
   border-radius: var(--radius-md);
   overflow: hidden;
+  max-width: 300px;
 }
 .card__inner {
   position: relative;

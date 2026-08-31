@@ -1,9 +1,10 @@
 .main-content__grid {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
   gap: var(--space-4);
   width: 100%;
   margin-bottom: var(--space-8);
+  justify-items: center;
 }
 
 @media (max-width: 1200px) {
