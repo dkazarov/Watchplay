@@ -4,6 +4,7 @@
   align-items: center;
   color: var(--color-text);
   margin-bottom: var(--space-4);
+  padding-top: var(--space-1);
   svg {
     display: flex;
     align-items: center;

@@ -33,17 +33,25 @@
   }
 }
 
+@media (max-width: 768px) {
+  .watched-info__view-all-text {
+    font-size: var(--font-size-sm);
+  }
+}
+@media (max-width: 360px) {
+  .watched-info__title {
+    font-size: var(--font-size-xs);
+  }
+  .watched-info__view-all-text {
+    font-size: var(--font-size-xs);
+  }
+}
+
 @media (hover: hover) and (pointer: fine) {
   .watched-info__view-all:hover {
     color: var(--color-accent-cinema-theme-text-400);
     svg {
       stroke: var(--color-accent-cinema-theme-text-400);
     }
-  }
-}
-
-@media (max-width: 768px) {
-  .watched-info__view-all-text {
-    font-size: var(--font-size-xs);
   }
 }

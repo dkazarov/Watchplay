@@ -33,11 +33,11 @@
 }
 
 @media (max-width: 768px) {
-  .watchlist-info__view-all-text {
-    font-size: var(--font-size-xs);
+  .watchlist-info__title {
+    font-size: var(--font-size-sm);
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 360px) {
   .watchlist-info__title {
     font-size: var(--font-size-xs);
   }
