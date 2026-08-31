@@ -4,7 +4,7 @@
   height: 48px;
 }
 
-@media (min-width: 1399px) {
+@media (min-width: 1600px) {
   .random {
     display: none;
   }
