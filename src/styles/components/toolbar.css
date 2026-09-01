@@ -37,7 +37,7 @@
 
   &:active {
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
-    transform: translateY(1px);
+    transform: translateY(2px);
   }
 }
 .toolbar__button--sort .toolbar__button-title span:nth-child(2) {
